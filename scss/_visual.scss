@@ -1,0 +1,53 @@
+.nav-link{
+    border: none;
+    padding: 15px 30px;
+    color: antiquewhite;
+}
+#nav-color{
+    background-color: #29bad7;
+}
+
+#home{
+
+    background-color: #36bed9;
+}
+
+
+.row ,h1, p{
+    color: antiquewhite;
+}
+
+
+//Iconos de redes
+
+.img-responsive {
+    display: inline;
+}
+
+#social-media img {
+    border-radius: 10rem;
+    background-color: $white;
+    transition: all ease .3s;
+        
+}
+
+#facebook:hover {
+    background-color: #3b5998;
+}
+
+#linkedin:hover {
+    background-color: #0077b5;
+}
+
+#github:hover {
+    background-color: black;
+}
+
+
+.form-group a {
+
+background-color: #fe9141;
+color: #f5f9fa;
+border: 1px solid #fe8228;
+margin: 3rem;
+}

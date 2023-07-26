@@ -11979,14 +11979,55 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-#wrapper {
-  height: 100vh;
+.nav-link {
+  border: none;
+  padding: 15px 30px;
+  color: antiquewhite;
 }
 
-#page-content-wrapper {
-  overflow: auto;
+#nav-color {
+  background-color: #29bad7;
 }
 
-h1, .h1 {
-  background-color: red;
+#home {
+  background-color: #36bed9;
+}
+
+.row, h1, .h1, p {
+  color: antiquewhite;
+}
+
+.img-responsive {
+  display: inline;
+}
+
+#social-media img {
+  border-radius: 10rem;
+  background-color: #fff;
+  transition: all ease 0.3s;
+}
+
+#facebook:hover {
+  background-color: #3b5998;
+}
+
+#linkedin:hover {
+  background-color: #0077b5;
+}
+
+#github:hover {
+  background-color: black;
+}
+
+.form-group a {
+  background-color: #fe9141;
+  color: #f5f9fa;
+  border: 1px solid #fe8228;
+  margin: 3rem;
+}
+
+.nav-link {
+  border: none;
+  padding: 15px 30px;
+  color: antiquewhite;
 }/*# sourceMappingURL=styles.css.map */

@@ -3,166 +3,146 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./scss/styles.css" />
+    <!-- Google font -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
     <link
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM"
-      crossorigin="anonymous"
-    />
-    <title>Document</title>
+    <link rel="stylesheet" href="./scss/styles.css" />
+
+    <title>Portafolio</title>
+
   </head>
   <body>
     <div class="container-fluid">
-      <div class="row flex-nowrap" id="wrapper">
-        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0 bg-dark">
+      <div class="row flex-nowrap vh-100" id="wrapper">
+        <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0" id="nav-color">
           <div
             class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100"
           >
-            <a
-              href="https://www.youtube.com/"
-              class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none"
+            <div
+              class="fs-5 d-none d-sm-inline text-center py-4 primary-text fs-4 fw-bold text-uppercase border-bottom"
             >
-              <span class="fs-5 d-none d-sm-inline">Menu</span>
-            </a>
-            <ul
-              class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
-              id="menu"
-            >
-              <li class="nav-item">
-                <a href="https://www.youtube.com/" class="nav-link align-middle px-0 ">
-                  <i class="fs-4 bi-house"></i>
-                  <span class="ms-1 d-none d-sm-inline">Home</span>
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://www.youtube.com/"
-                  class="nav-link px-0 align-middle"
-                >
-                  <i class="fs-4 bi-speedometer2"></i>
-                  <span class="ms-1 d-none d-sm-inline">Dashboard</span>
-                </a>               
-              </li>
-              <li>
-                <a href="https://www.youtube.com/" class="nav-link px-0 align-middle">
-                  <i class="fs-4 bi-table"></i>
-                  <span class="ms-1 d-none d-sm-inline">Orders</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="https://www.youtube.com/"
-                  class="nav-link px-0 align-middle"
-                >
-                  <i class="fs-4 bi-bootstrap"></i>
-                  <span class="ms-1 d-none d-sm-inline">Bootstrap</span></a
-                >
-              </li>
-              <li>
-                <a
-                  href="#submenu3"
-                  data-bs-toggle="collapse"
-                  class="nav-link px-0 align-middle"
-                >
-                  <i class="fs-4 bi-grid"></i>
-                  <span class="ms-1 d-none d-sm-inline">Products</span>
-                </a>
-              </li>
-              <li>
-                <a href="https://www.youtube.com/" class="nav-link px-0 align-middle">
-                  <i class="fs-4 bi-people"></i>
-                  <span class="ms-1 d-none d-sm-inline">Customers</span>
-                </a>
-              </li>
-            </ul>
+              <img src="" style="width: 50px; height: auto; margin: 5px" />
+              Portafolio
+            </div>
+            <div class="d-flex flex-column align-items-center">
+              <ul
+                class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start"
+                id="menu"
+              >
+                <li class="nav-item">
+                  <a
+                    href="https://www.youtube.com/"
+                    class="nav-link align-middle px-0"
+                  >
+                    <i class="fs-4 bi-house"></i>
+                    <span class="ms-1 d-none d-sm-inline">Home</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/"
+                    class="nav-link px-0 align-middle"
+                  >
+                    <i class="fs-4 bi-speedometer2"></i>
+                    <span class="ms-1 d-none d-sm-inline">Dashboard</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/"
+                    class="nav-link px-0 align-middle"
+                  >
+                    <i class="fs-4 bi-table"></i>
+                    <span class="ms-1 d-none d-sm-inline">Orders</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/"
+                    class="nav-link px-0 align-middle"
+                  >
+                    <i class="fs-4 bi-bootstrap"></i>
+                    <span class="ms-1 d-none d-sm-inline">Bootstrap</span></a
+                  >
+                </li>
+                <li>
+                  <a
+                    href="#submenu3"
+                    data-bs-toggle="collapse"
+                    class="nav-link px-0 align-middle"
+                  >
+                    <i class="fs-4 bi-grid"></i>
+                    <span class="ms-1 d-none d-sm-inline">Products</span>
+                  </a>
+                </li>
+                <li>
+                  <a
+                    href="https://www.youtube.com/"
+                    class="nav-link px-0 align-middle"
+                  >
+                    <i class="fs-4 bi-people"></i>
+                    <span class="ms-1 d-none d-sm-inline">Customers</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
-        <div class="col py-3" id="page-content-wrapper">
-          
-          <!-- Contact -->
-          <section id="contact">
-            <h1>Leonardo no puede con HTML Y CSS</h1>
-          </section>
 
+        <!-- La barra lateral termina aquí -->
+
+        <div class="overflow-auto col py-3" id="page-content-wrapper">
           <!-- Contact -->
-          <section id="contact">
+          <section id="home">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-xs-12">
-                  <h2>Contact</h2>
                   <hr class="section-hr" />
                 </div>
               </div>
+
+              <div class="form-group text-center">
+                <h1>Ferrer José Luis</h1>
+              </div>
+
+              <div class="form-group text-center">
+                <p>Bienvendios a mi portfolio</p>
+              </div>
+
+              <div class="form-group text-center">
+                <a type="submit" class="btn btn-lg" href="CV.txt" download="CV"
+                  >Descargar cv</a
+                >
+                <br />
+                <div id="success"></div>
+              </div>
+
+              <div class="d-flex justify-content-center" id="social-media">
+                <a href="https://www.linkedin.com/in/jos%C3%A9-luis-ferrer/"
+                  ><img id="linkedin" src="./img/linkedin.png" /></a
+                >&nbsp;
+                <a href="https://github.com/Ruyjoy"
+                  ><img id="github" src="./img/github.png" /></a
+                >&nbsp;
+                <a href="https://www.facebook.com/joseluis.ferrer1/"
+                  ><img id="facebook" src="./img/facebook.png"
+                /></a>
+              </div>
+
               <div class="row">
-                <div class="col-xs-10 col-xs-offset-1">
-                  <form id="contact-form" class="text-left" role="form">
-                    <input type="hidden" name="source" value="Portfolio" />
-                    <div class="form-group">
-                      <label for="form-name">Name</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Name"
-                        id="form-name"
-                        name="name"
-                      />
-                    </div>
-                    <hr />
-                    <div class="form-group">
-                      <label for="form-email">Email</label>
-                      <input
-                        type="email"
-                        class="form-control"
-                        placeholder="Email"
-                        id="form-email"
-                        name="email"
-                      />
-                    </div>
-                    <hr />
-                    <div class="form-group">
-                      <label for="form-phone">Phone</label>
-                      <input
-                        type="tel"
-                        class="form-control"
-                        placeholder="Phone"
-                        id="form-phone"
-                        name="phone"
-                      />
-                    </div>
-                    <hr />
-                    <div class="form-group">
-                      <label for="form-message">Message</label>
-                      <textarea
-                        rows="1"
-                        class="form-control"
-                        placeholder="Message"
-                        id="form-message"
-                        name="message"
-                      ></textarea>
-                    </div>
-                    <hr />
-                    <div class="form-group">
-                      <label id="captcha-gen" for="form-captcha"></label>
-                      <input
-                        type="text"
-                        id="form-captcha"
-                        class="form-control"
-                        name="captcha"
-                        placeholder=""
-                      />
-                    </div>
-                    <hr />
-                    <div class="form-group text-center">
-                      <button type="submit" class="btn btn-lg">Send</button>
-                      <br />
-                      <div id="success"></div>
-                    </div>
-                  </form>
+                <div class="col-xs-12">
+                  <hr class="section-hr" />
                 </div>
               </div>
             </div>
@@ -246,17 +226,9 @@
               </div>
             </div>
           </section>
-
         </div>
       </div>
     </div>
-
-    <script
-      src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
@@ -264,11 +236,9 @@
     ></script>
 
     <script
-    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
-    integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
-    crossorigin="anonymous"
-  ></script>
-
-    
+      src="https://code.jquery.com/jquery-3.7.0.slim.min.js"
+      integrity="sha256-tG5mcZUtJsZvyKAxYLVXrmjKBVLd6VpVccqz/r4ypFE="
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>

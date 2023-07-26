@@ -1,13 +1,8 @@
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
+@import "./visual";
 
-
-#wrapper{
-    height:100vh;
-  }
-#page-content-wrapper{
-     overflow:auto;
-}
-
-h1{
-    background-color: red;
+.nav-link{
+  border: none;
+  padding: 15px 30px;
+  color: antiquewhite;
 }
