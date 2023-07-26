@@ -1,0 +1,13 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+#wrapper{
+    height:100vh;
+  }
+#page-content-wrapper{
+     overflow:auto;
+}
+
+h1{
+    background-color: red;
+}
