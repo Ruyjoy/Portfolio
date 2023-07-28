@@ -11989,6 +11989,10 @@ textarea.form-control-lg {
   background-color: #29bad7;
 }
 
+home {
+  background-color: #36bed9;
+}
+
 #home {
   background-color: #36bed9;
 }
@@ -12026,6 +12030,47 @@ textarea.form-control-lg {
   margin: 3rem;
 }
 
+.form-group p {
+  margin: 1rem;
+  font-family: sans-serif;
+  position: relative;
+}
+
+.algo {
+  font-size: 50px;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  background: url(../img/images.jpg);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: anima 40s linear infinite;
+}
+
+.algo2 {
+  font-size: 50px;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  background: url(../img/imagen3.jpg);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: anima 40s linear infinite;
+}
+
+.algo3 {
+  font-size: 50px;
+  color: transparent;
+  -webkit-text-stroke: 1px white;
+  background: url(../img/imagen4.jpg);
+  -webkit-background-clip: text;
+  background-position: 0 0;
+  animation: anima 40s linear infinite;
+}
+
+@keyframes anima {
+  100% {
+    background-position: 1280px 0;
+  }
+}
 .nav-link {
   border: none;
   padding: 15px 30px;
