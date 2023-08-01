@@ -1,0 +1,33 @@
+[{
+    "icon": "html",
+    "name": "HTML5",
+    "url":"./img/iconos/html.jpg"
+}, {
+    "icon": "css",
+    "name": "CSS3",
+    "url":"./img/iconos/css2.png"
+}, {
+    "icon": "js",
+    "name": "JavaScript (ES6)",
+    "url":"./img/iconos/js.png"
+}, {
+    "icon": "jquery",
+    "name": "JQuery",
+    "url":"./img/iconos/jquery.png"
+}, {
+    "icon": "bootstrap",
+    "name": "Bootstrap",
+    "url":"./img/iconos/bootstrap.png"
+}, {
+    "icon": "java",
+    "name": "Java",
+    "url":"./img/iconos/java.png"
+}, {
+    "icon": "git",
+    "name": "Git, GitHub, Source Tree, & Bitbucket",
+    "url":"./img/iconos/git.png"
+}, {
+    "icon": "node",
+    "name": "Node.js & Express",
+    "url":"./img/iconos/git.jpg"
+}]

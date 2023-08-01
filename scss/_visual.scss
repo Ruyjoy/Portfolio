@@ -7,13 +7,20 @@
     background-color: #29bad7;
 }
 
-home{
+#home{
+
+    background-color: #36bed9;
+}
+#portfolio{
+
+    background-color: #36bed9;
+}
+#skillset{
 
     background-color: #36bed9;
 }
 
-
-#home{
+#contact{
 
     background-color: #36bed9;
 }
@@ -50,7 +57,7 @@ home{
 }
 
 
-.form-group a {
+#id_btn {
 
 background-color: #fe9141;
 color: #f5f9fa;
@@ -64,8 +71,8 @@ margin: 3rem;
     position: relative;
 }
 
-.algo3{
-    font-size: 50px;
+.movi{
+    font-size: 40px;
     color: transparent;
     -webkit-text-stroke: 1px white;
     background: url(../img/imagen4.jpg);
@@ -74,9 +81,16 @@ margin: 3rem;
     animation: anima 40s linear infinite;
 }
 
+@keyframes blink {
+    50%{ border-color: transparent;}
+    
+}
+
 @keyframes anima {
     100%{
         background-position: 1280px 0;
     }
     
 }
+
+

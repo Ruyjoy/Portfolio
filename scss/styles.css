@@ -11989,11 +11989,19 @@ textarea.form-control-lg {
   background-color: #29bad7;
 }
 
-home {
+#home {
   background-color: #36bed9;
 }
 
-#home {
+#portfolio {
+  background-color: #36bed9;
+}
+
+#skillset {
+  background-color: #36bed9;
+}
+
+#contact {
   background-color: #36bed9;
 }
 
@@ -12023,7 +12031,7 @@ home {
   background-color: black;
 }
 
-.form-group a {
+#id_btn {
   background-color: #fe9141;
   color: #f5f9fa;
   border: 1px solid #fe8228;
@@ -12036,8 +12044,8 @@ home {
   position: relative;
 }
 
-.algo3 {
-  font-size: 50px;
+.movi {
+  font-size: 40px;
   color: transparent;
   -webkit-text-stroke: 1px white;
   background: url(../img/imagen4.jpg);
@@ -12046,6 +12054,11 @@ home {
   animation: anima 40s linear infinite;
 }
 
+@keyframes blink {
+  50% {
+    border-color: transparent;
+  }
+}
 @keyframes anima {
   100% {
     background-position: 1280px 0;
@@ -12055,4 +12068,27 @@ home {
   border: none;
   padding: 15px 30px;
   color: antiquewhite;
+}
+
+#skillset img {
+  border-radius: 1rem;
+  max-width: 9rem;
+}
+
+#items2 {
+  grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 1rem;
+  align-self: center;
+  justify-self: center;
+}
+
+.estilo {
+  grid-gap: 1rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  margin: 1rem;
+  align-self: center;
+  justify-self: center;
 }/*# sourceMappingURL=styles.css.map */
