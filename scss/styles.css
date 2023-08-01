@@ -12064,12 +12064,6 @@ textarea.form-control-lg {
     background-position: 1280px 0;
   }
 }
-.nav-link {
-  border: none;
-  padding: 15px 30px;
-  color: antiquewhite;
-}
-
 #skillset img {
   border-radius: 1rem;
   max-width: 9rem;
@@ -12091,4 +12085,10 @@ textarea.form-control-lg {
   margin: 1rem;
   align-self: center;
   justify-self: center;
+}
+
+.nav-link {
+  border: none;
+  padding: 15px 30px;
+  color: antiquewhite;
 }/*# sourceMappingURL=styles.css.map */

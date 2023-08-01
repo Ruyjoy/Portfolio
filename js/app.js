@@ -4,10 +4,6 @@ const items = document.getElementById("items");
 const template = document.getElementById("template-card").content;
 const fragment = document.createDocumentFragment();
 
-
-
-
-
 fetch('./json/datos.json')
     .then(function (response) {
         return response.json();
