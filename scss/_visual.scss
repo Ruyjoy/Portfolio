@@ -98,13 +98,10 @@ margin: 3rem;
     border-radius: 1rem;
     
     max-width: 9rem;
-  }
+}
   
-  #skillset img:hover {
-     
-  }
-  
-  #items2 {
+   
+#items2 {
     grid-gap: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -112,14 +109,13 @@ margin: 3rem;
     align-self: center;
     justify-self: center;
     
-   }
-  
-   .estilo{
+}
+.estilo{
     grid-gap: 1rem;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     margin: 1rem;
     align-self: center;
     justify-self: center;
-   }
+}
 
