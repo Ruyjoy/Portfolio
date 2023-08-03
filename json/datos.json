@@ -19,6 +19,10 @@
     "name": "JQuery",
     "url":"./img/iconos/jquery.png"
 }, {
+    "icon": "node",
+    "name": "Node.js",
+    "url":"./img/iconos/node.png"
+}, {
     "icon": "bootstrap",
     "name": "Bootstrap",
     "url":"./img/iconos/bootstrap.png"
@@ -31,11 +35,15 @@
     "name": "PHP",
     "url":"./img/iconos/php.jpg"
 },{
-    "icon": "git",
-    "name": "Git, GitHub, Source Tree, & Bitbucket",
-    "url":"./img/iconos/git.png"
+    "icon": "c#",
+    "name": "C#",
+    "url":"./img/iconos/c.png"
 }, {
-    "icon": "node",
-    "name": "Node.js & Express",
+    "icon": "git",
+    "name": "Git, GitHub",
     "url":"./img/iconos/git.jpg"
+}, {
+    "icon": "msql",
+    "name": "MySql",
+    "url":"./img/iconos/mysql.png"
 }]

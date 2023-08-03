@@ -1,31 +1,31 @@
 [{
-    "name": "html",
-    "titulo": "HTML5",
-    "description": "Hola soy una description", 
-    "url":""
+    "name": "",
+    "titulo": "Pagina web de animales extraviado.",
+    "description": "CSS3, HTML, Bootstrap, JavaScript, Responsive Design, JQuery, RESTful API, PHP, MySQL  ", 
+    "url":"./img/imagen4.jpg"
 }, {
-    "icon": "html",
-    "titulo": "HTML5",
-    "description": "Hola soy una description", 
-    "url":""
+    "name": "",
+    "titulo": "Pagina web de gestion de automotora.",
+    "description": "CSS3, HTML, Bootstrap, JavaScript, Responsive Design, PHP, MySQL", 
+    "url":"./img/imagen4.jpg"
 }, {
-    "icon": "html",
-    "titulo": "HTML5",
-    "description": "Hola soy una description", 
-    "url":""
+    "icon": "",
+    "titulo": "Aplicacion de escritorio sobre gestion de una terminal.",
+    "description": " Java, Swing, MySQL", 
+    "url":"./img/imagen4.jpg"
 }, {
-    "icon": "html",
-    "titulo": "HTML5",
-    "description": "Hola soy una description", 
+    "icon": "",
+    "titulo": "Apliacacion android.",
+    "description": " Java, Android studio, MySQL", 
     "url":"./img/images.jpg"
 }, {
-    "icon": "html",
-    "titulo": "HTML5",
-    "description": "Hola soy una description", 
-    "url":""
+    "icon": "",
+    "titulo": "Pagina web de gestion de farmacia.",
+    "description": "C#, ADO.net, ASP.net, REST API, SQL ", 
+    "url":"./img/images.jpg"
 }, {
-    "icon": "html",
-    "titulo": "HTML5",
-    "description": "Hola soy una description", 
-    "url":""
+    "icon": "",
+    "titulo": "Pagina web de restaurante.",
+    "description": "C#, ADO.net, ASP.net, SQL", 
+    "url":"./img/images.jpg"
 }]
