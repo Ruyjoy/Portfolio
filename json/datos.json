@@ -10,11 +10,11 @@
     "icon": "sass",
     "name": "SASS",
     "url":"./img/iconos/sass.png"
-},{
+}, {
     "icon": "js",
     "name": "JavaScript (ES6)",
     "url":"./img/iconos/js.png"
-},{
+}, {
     "icon": "jquery",
     "name": "JQuery",
     "url":"./img/iconos/jquery.png"
