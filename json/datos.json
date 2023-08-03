@@ -7,10 +7,14 @@
     "name": "CSS3",
     "url":"./img/iconos/css2.png"
 }, {
+    "icon": "sass",
+    "name": "SASS",
+    "url":"./img/iconos/sass_logo.png"
+},{
     "icon": "js",
     "name": "JavaScript (ES6)",
     "url":"./img/iconos/js.png"
-}, {
+},{
     "icon": "jquery",
     "name": "JQuery",
     "url":"./img/iconos/jquery.png"
@@ -23,6 +27,10 @@
     "name": "Java",
     "url":"./img/iconos/java.png"
 }, {
+    "icon": "php",
+    "name": "PHP",
+    "url":"./img/iconos/php.jpg"
+},{
     "icon": "git",
     "name": "Git, GitHub, Source Tree, & Bitbucket",
     "url":"./img/iconos/git.png"

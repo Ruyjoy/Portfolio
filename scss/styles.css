@@ -11979,6 +11979,10 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  text-align: center;
+}
+
 .nav-link {
   border: none;
   padding: 15px 30px;
@@ -11998,6 +12002,10 @@ textarea.form-control-lg {
 }
 
 #skillset {
+  background-color: #36bed9;
+}
+
+#sobreMi {
   background-color: #36bed9;
 }
 
@@ -12066,25 +12074,13 @@ textarea.form-control-lg {
 }
 #skillset img {
   border-radius: 1rem;
-  max-width: 9rem;
+  cursor: context-menu;
+  max-width: 7rem;
+  text-align: center;
 }
 
-#items2 {
-  grid-gap: 1rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 1rem;
-  align-self: center;
-  justify-self: center;
-}
-
-.estilo {
-  grid-gap: 1rem;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  margin: 1rem;
-  align-self: center;
-  justify-self: center;
+#card-imagen p {
+  color: #2e0c28;
 }
 
 .nav-link {

@@ -46,7 +46,7 @@
                   </a>
                 </li>
                 <li>
-                  <a href="#portfolio" class="nav-link px-0 align-middle">
+                  <a href="#sobreMi" class="nav-link px-0 align-middle">
                     <i class="fs-4 bi-speedometer2"></i>
                     <span class="ms-1 d-none d-sm-inline">Sobre mi</span>
                   </a>
@@ -58,14 +58,14 @@
                   >
                 </li>
                 <li>
-                  <a href="www.xaviro.com" class="nav-link px-0 align-middle">
+                  <a href="#skillset" class="nav-link px-0 align-middle">
                     <i class="fs-4 bi-bootstrap"></i>
-                    <span class="ms-1 d-none d-sm-inline">Bootstrap</span></a
+                    <span class="ms-1 d-none d-sm-inline">Skill</span></a
                   >
                 </li>
                 <li>
                   <a
-                    href="#submenu3"
+                    href="www.xaviro.com"
                     data-bs-toggle="collapse"
                     class="nav-link px-0 align-middle"
                   >
@@ -97,9 +97,16 @@
                 </div>
               </div>
 
+              <br>
+              <br>
+              <br>
+              <br>
+              <br>
+              
               <div class="form-group text-center">
                 <h1>Ferrer José Luis</h1>
               </div>
+              <br>
 
               <div class="form-group text-center">
                 <h3 class="movi">Bienvendios a mi portfolio</h3>
@@ -110,6 +117,7 @@
                 </h3>
               </div>
 
+              <br>
               <div class="form-group text-center">
                 <a
                   id="id_btn"
@@ -122,6 +130,7 @@
                 <br />
                 <div id="success"></div>
               </div>
+              <br>
 
               <div class="d-flex justify-content-center" id="social-media">
                 <a href="https://www.linkedin.com/in/jos%C3%A9-luis-ferrer/"
@@ -143,12 +152,39 @@
             </div>
           </section>
 
+          <!-- Sobre mi -->
+
+          
+          <section id="sobreMi">
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-xs-12">
+                  <div class="form-group text-center">
+                    <h1>Sobre mi</h1>
+                  </div>
+                  <hr class="section-hr" />
+                </div>
+
+                <h5>
+                  Apasionado por el aprendizaje constante y entusiasmado por
+                  formar parte de una empresa donde pueda aplicar y ampliar mis
+                  conocimientos. Comprometido con mi crecimiento tanto a nivel
+                  profesional como personal, busco oportunidades que desafíen y
+                  estimulen mi desarrollo. Estoy motivado para contribuir al
+                  éxito de la organización mientras continúo expandiendo mis
+                  habilidades y experiencia
+                </h5>
+              </div>
+            </div>
+          </section>
+
           <!-- Portfolio -->
 
           <section id="portfolio" class="odd section">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-xs-12">
+                  <hr class="section-hr" />
                   <div class="form-group text-center">
                     <h1>Portfolio</h1>
                   </div>
@@ -156,42 +192,156 @@
                 </div>
               </div>
             </div>
+            <div class="container-fluid">
+              <div class="row row-cols-1 row-cols-md-3 g-4" id="card-imagen">
+                <template id="card-portfolio">
+                  <div class="col">
+                    <div class="card h-100">
+                      <img
+                        src="..."
+                        class="card-img-top"
+                        alt="..."
+                        id="imagen-conta"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                          This is a longer card with supporting text below as a
+                          natural lead-in to additional content. This content is
+                          a little bit longer.
+                        </p>
+                      </div>
+                      <div
+                        class="d-flex justify-content-center"
+                        id="social-media"
+                      >
+                        <a href="https://github.com/Ruyjoy"
+                          ><img id="github" src="./img/github.png" /></a
+                        >&nbsp;
+                        <a href="https://www.facebook.com/joseluis.ferrer1/"
+                          ><img id="facebook" src="./img/facebook.png"
+                        /></a>
+                      </div>
+                    </div>
+                  </div>
+                </template>
+              </div>
+            </div>
           </section>
 
           <!-- Skill -->
-          <section id="skillset" class="even section">
+
+          <section id="skillset">
             <div class="container-fluid">
               <div class="row">
                 <div class="col-xs-12">
                   <div class="form-group text-center">
+                    <div class="row">
+                      <div class="col-xs-12">
+                        <hr class="section-hr" />
+                      </div>
+                    </div>
                     <h1>Skills</h1>
                   </div>
                   <hr class="section-hr" />
                 </div>
-                <div class="estilo" id="items"></div>
+              </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            
+            <div class="container-fluid">
+              <div class="row row-cols-3 row-cols-md-5 g-4" id="items">
+                <template id="template-card">
+                  <div>
+                    <img
+                      src="./img/iconos/css2.png"
+                      class="card-img-top"
+                      alt="..."
+                    />
+                  </div>
+                </template>
+              </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            
+            
+          </section>
 
+          <!--Contacto-->
+
+          <!-- Contact -->
+          <section id="contact" class="even section">
+            <div class="container-fluid">
+              <div class="row">
                 <div class="col-xs-12">
+                  <hr class="section-hr" />
+                  <h2>Contact</h2>
                   <hr class="section-hr" />
                 </div>
               </div>
-             
-
-             
+              <div class="row">
+                <div class="col-xs-10 col-xs-offset-1">
+                  <form id="contact-form" class="text-left" role="form">
+                    <input type="hidden" name="source" value="Portfolio" />
+                    <div class="form-group">
+                      <label for="form-name">Name</label>
+                      <input
+                        type="text"
+                        class="form-control"
+                        placeholder="Name"
+                        id="form-name"
+                        name="name"
+                      />
+                    </div>
+                    <hr />
+                    <div class="form-group">
+                      <label for="form-email">Email</label>
+                      <input
+                        type="email"
+                        class="form-control"
+                        placeholder="Email"
+                        id="form-email"
+                        name="email"
+                      />
+                    </div>
+                    <hr />
+                    <div class="form-group">
+                      <label for="form-phone">Phone</label>
+                      <input
+                        type="tel"
+                        class="form-control"
+                        placeholder="Phone"
+                        id="form-phone"
+                        name="phone"
+                      />
+                    </div>
+                    <hr />
+                    <div class="form-group">
+                      <label for="form-message">Message</label>
+                      <textarea
+                        rows="1"
+                        class="form-control"
+                        placeholder="Message"
+                        id="form-message"
+                        name="message"
+                      ></textarea>
+                    </div>
+                    <hr />
+                    <div class="form-group text-center">
+                      <button type="submit" class="btn btn-lg" id="id_btn">Send</button>
+                      <br />
+                      <div id="success"></div>
+                    </div>
+                  </form>
+                </div>
+              </div>
             </div>
           </section>
-
-          <template id="template-card">
-            <div class="col-sm-3 col-xs-3 image-container">
-              <img
-                class="svg-skill"
-                src=""
-                data-toggle="tooltip"
-                data-placement="top"
-                title="..."
-                alt="..."
-              />
-            </div>
-          </template>
         </div>
       </div>
     </div>
