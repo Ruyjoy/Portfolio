@@ -55,7 +55,7 @@ fetch('./json/datos.json')
                 templatecard.querySelector('#imagen-conta').setAttribute("title",i.titulo)
                 templatecard.querySelector('img').setAttribute("src",i.url)
                 templatecard.querySelector('h5').textContent = i.titulo;
-                templatecard.querySelector('p').textContent = i.description;
+                templatecard.querySelector('h6').textContent = i.description;
                 
                 const clone1 = templatecard.cloneNode(true);
                 fragment2.appendChild(clone1);

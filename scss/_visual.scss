@@ -1,6 +1,7 @@
 
 body{
     text-align: center;
+    background-color:  #0979b0;
   }
 
 .nav-link{
@@ -12,26 +13,24 @@ body{
     background-color: #29bad7;
 }
 
-#home{
-
-    background-color: #36bed9;
-}
 #portfolio{
 
-    background-color: #36bed9;
+   // background-color:#ebeff3;
+    background-color: #0979b0;
 }
 #skillset{
 
-    background-color: #36bed9;
+    background-color: #0979b0;
 }
 
 #sobreMi{
 
-    background-color: #36bed9;
+    background-color: #0979b0;
 }
 #contact{
 
     background-color: #36bed9;
+    background-color: #0979b0;
 }
 
 
@@ -52,6 +51,7 @@ body{
     transition: all ease .3s;
         
 }
+
 
 #facebook:hover {
     background-color: #3b5998;
@@ -115,4 +115,10 @@ margin: 3rem;
     color: #2e0c28;
 }
    
+a{
+    color: white;
+}
+
+
+
 

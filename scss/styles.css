@@ -11981,6 +11981,7 @@ textarea.form-control-lg {
 }
 body {
   text-align: center;
+  background-color: #0979b0;
 }
 
 .nav-link {
@@ -11993,24 +11994,21 @@ body {
   background-color: #29bad7;
 }
 
-#home {
-  background-color: #36bed9;
-}
-
 #portfolio {
-  background-color: #36bed9;
+  background-color: #0979b0;
 }
 
 #skillset {
-  background-color: #36bed9;
+  background-color: #0979b0;
 }
 
 #sobreMi {
-  background-color: #36bed9;
+  background-color: #0979b0;
 }
 
 #contact {
   background-color: #36bed9;
+  background-color: #0979b0;
 }
 
 .row, h1, .h1, p {
@@ -12081,6 +12079,130 @@ body {
 
 #card-imagen p {
   color: #2e0c28;
+}
+
+a {
+  color: white;
+}
+
+#home {
+  background-color: #0979b0;
+}
+
+#home h1, #home .h1, h3, .h3 {
+  color: black;
+}
+
+.product-item {
+  transition: 0.5s;
+}
+
+.product-item:hover {
+  box-shadow: 0 0 30px #DDDDDD;
+}
+
+.product-item:hover .product-action {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.product-item:hover .product-action a.btn:first-child {
+  opacity: 1;
+  margin-top: 0;
+  transition: 0.3s 0s;
+}
+
+.product-item:hover .product-action a.btn:nth-child(2) {
+  opacity: 1;
+  margin-top: 0;
+  transition: 0.3s 0.05s;
+}
+
+.product-item:hover .product-action a.btn:nth-child(3) {
+  opacity: 1;
+  margin-top: 0;
+  transition: 0.3s 0.1s;
+}
+
+.product-item:hover .product-action a.btn:nth-child(4) {
+  opacity: 1;
+  margin-top: 0;
+  transition: 0.3s 0.15s;
+}
+
+.product-item .product-img img {
+  transition: 0.5s;
+}
+
+.product-item:hover .product-img img {
+  transform: scale(1.2);
+}
+
+.product-item .btn:hover {
+  color: #FFD333 !important;
+}
+
+.product-item .product-img img {
+  transition: 0.5s;
+}
+
+.product-item:hover .product-img img {
+  transform: scale(1.2);
+}
+
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+.product-action {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+}
+
+.product-action a.btn {
+  position: relative;
+  margin: 0 3px;
+  margin-top: 100px;
+  opacity: 0;
+}
+
+.product-item:hover .product-action {
+  background: rgba(255, 255, 255, 0.7);
+}
+
+.product-item:hover .product-action a.btn:first-child {
+  opacity: 1;
+  margin-top: 0;
+  transition: 0.3s 0s;
+}
+
+.product-item:hover .product-action a.btn:nth-child(2) {
+  opacity: 1;
+  margin-top: 0;
+  transition: 0.3s 0.05s;
+}
+
+.product-item:hover .product-action a.btn:nth-child(3) {
+  opacity: 1;
+  margin-top: 0;
+  transition: 0.3s 0.1s;
+}
+
+.product-item:hover .product-action a.btn:nth-child(4) {
+  opacity: 1;
+  margin-top: 0;
+  transition: 0.3s 0.15s;
+}
+
+#card-imagen h5, #card-imagen .h5 {
+  color: black;
 }
 
 .nav-link {

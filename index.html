@@ -17,6 +17,12 @@
       rel="stylesheet"
       href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"
     />
+
+    <!-- Font Awesome -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./scss/styles.css" />
 
     <title>Portafolio</title>
@@ -24,6 +30,8 @@
   <body>
     <div class="container-fluid">
       <div class="row flex-nowrap vh-100" id="wrapper">
+        <!-- Nav -->
+
         <div class="col-auto col-md-3 col-xl-2 px-sm-2 px-0" id="nav-color">
           <div
             class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100"
@@ -65,7 +73,7 @@
                 </li>
                 <li>
                   <a
-                    href="www.xaviro.com"
+                    href=""
                     data-bs-toggle="collapse"
                     class="nav-link px-0 align-middle"
                   >
@@ -83,9 +91,6 @@
             </div>
           </div>
         </div>
-
-        <!-- La barra lateral termina aquí -->
-
         <div class="overflow-auto col py-3" id="page-content-wrapper">
           <!-- Principal -->
 
@@ -97,27 +102,31 @@
                 </div>
               </div>
 
-              <br>
-              <br>
-              <br>
-              <br>
-              <br>
-              
+              <div class="form-group text-center">
+                <h2 class="movi">Bienvendios a mi portfolio</h2>
+              </div>
+              <div class="row">
+                <div class="col-xs-12">
+                  <hr class="section-hr" />
+                </div>
+              </div>
+
+              <br />
+              <br />
+              <br />
+
               <div class="form-group text-center">
                 <h1>Ferrer José Luis</h1>
               </div>
-              <br>
-
-              <div class="form-group text-center">
-                <h3 class="movi">Bienvendios a mi portfolio</h3>
-              </div>
+              <br />
               <div class="form-group text-center">
                 <h3 class="movi1">
                   Puedes contactarme en <a href="#">ruyjoy@hotmail.com</a>
                 </h3>
               </div>
 
-              <br>
+              <br />
+              <br />
               <div class="form-group text-center">
                 <a
                   id="id_btn"
@@ -130,7 +139,6 @@
                 <br />
                 <div id="success"></div>
               </div>
-              <br>
 
               <div class="d-flex justify-content-center" id="social-media">
                 <a href="https://www.linkedin.com/in/jos%C3%A9-luis-ferrer/"
@@ -154,7 +162,6 @@
 
           <!-- Sobre mi -->
 
-          
           <section id="sobreMi">
             <div class="container-fluid">
               <div class="row">
@@ -184,47 +191,52 @@
             <div class="container-fluid">
               <div class="row">
                 <div class="col-xs-12">
-                  <hr class="section-hr" />
+                  <hr class="section-hr" id="hrport"/>
                   <div class="form-group text-center">
                     <h1>Portfolio</h1>
                   </div>
-                  <hr class="section-hr" />
+                  <hr class="section-hr" id="hrport" />
                 </div>
               </div>
             </div>
-            <div class="container-fluid">
-              <div class="row row-cols-1 row-cols-md-3 g-4" id="card-imagen">
+            <div class="container-fluid pt-5 pb-4">
+              <div class="row px-xl-5" id="card-imagen">
+                <!-- nueva Start -->
+
                 <template id="card-portfolio">
-                  <div class="col">
-                    <div class="card h-100">
-                      <img
-                        src="..."
-                        class="card-img-top"
-                        alt="..."
-                        id="imagen-conta"
-                      />
-                      <div class="card-body">
-                        <h5 class="card-title">Card title</h5>
-                        <p class="card-text">
-                          This is a longer card with supporting text below as a
-                          natural lead-in to additional content. This content is
-                          a little bit longer.
-                        </p>
-                      </div>
+                  <div class="col-lg-4 col-md-4 col-sm-6 pb-1">
+                    <div class="product-item bg-light mb-4">
                       <div
-                        class="d-flex justify-content-center"
-                        id="social-media"
+                        class="product-img position-relative overflow-hidden"
                       >
-                        <a href="https://github.com/Ruyjoy"
-                          ><img id="github" src="./img/github.png" /></a
-                        >&nbsp;
-                        <a href="https://www.facebook.com/joseluis.ferrer1/"
-                          ><img id="facebook" src="./img/facebook.png"
-                        /></a>
+                        <img
+                          class="img-fluid w-100"
+                          src="./img/fornite-epic-games-655x368.jpg"
+                          alt=""
+                          id="imagen-conta"
+                        />
+                        <div class="product-action">
+                          <a class="btn btn-outline-dark btn-square" href=""
+                            ><i class="fab fa-github"></i>
+                          </a>
+                          <a class="btn btn-outline-dark btn-square" href=""
+                            ><i class="fa fa-search"></i
+                          ></a>
+                        </div>
+                      </div>
+                      <div class="text-center py-4">
+                        <h5>JoseLuisFerrer</h5>
+                        <div
+                          class="d-flex align-items-center justify-content-center mt-2"
+                        >
+                          <h6 class="text-muted ml-2"><del>...</del></h6>
+                        </div>
                       </div>
                     </div>
                   </div>
                 </template>
+
+                <!-- nueva End -->
               </div>
             </div>
           </section>
@@ -247,10 +259,10 @@
                 </div>
               </div>
             </div>
-            <br>
-            <br>
-            <br>
-            
+            <br />
+            <br />
+            <br />
+
             <div class="container-fluid">
               <div class="row row-cols-3 row-cols-md-6 g-4" id="items">
                 <template id="template-card">
@@ -264,12 +276,10 @@
                 </template>
               </div>
             </div>
-            <br>
-            <br>
-            <br>
-            <br>
-            
-            
+            <br />
+            <br />
+            <br />
+            <br />
           </section>
 
           <!--Contacto-->
@@ -285,58 +295,71 @@
               </div>
               <div class="row">
                 <div class="col-xs-10 col-xs-offset-1">
-                  <form id="contact-form" class="text-left" role="form">
-                    <input type="hidden" name="source" value="Portfolio" />
-                    <div class="form-group">
-                      <label for="form-name">Name</label>
-                      <input
-                        type="text"
-                        class="form-control"
-                        placeholder="Name"
-                        id="form-name"
-                        name="name"
+                  <div class="form-group">
+                    <br />
+                    <h4 for="form-Email">
+                      &nbsp;&nbsp;<img
+                        id=""
+                        src="./img/iconos fiales/email.png"
+                      />&nbsp;&nbsp; Email : <a href="#">Ruyjoy@hotmail.com</a>
+                    </h4>
+                    <br />
+                  </div>
+                  <hr />
+                  <div class="form-group">
+                    <br />
+                    <h4 for="form-what">
+                      <img
+                        id=""
+                        src="./img/iconos fiales/whats.png"
+                      />&nbsp;&nbsp;Whatsapp : <a href="#">+598 91 777 644</a>
+                    </h4>
+                    <br />
+                  </div>
+
+                  <hr />
+                  <div class="form-group">
+                    <br />
+                    <h4 for="form-link">
+                      <img id="" src="./img/iconos fiales/linke.png" />&nbsp;
+                      Linkedin :&nbsp;
+                      <a
+                        href="https://www.linkedin.com/in/jos%C3%A9-luis-ferrer/"
+                        >in/JoseLuisFerrer</a
+                      >
+                    </h4>
+                    <br />
+                  </div>
+                  <hr />
+                  <div class="form-group">
+                    <h4 for="form-message">
+                      Este sitio está desarollado con :
+                    </h4>
+                    <div class="d-flex justify-content-center" id="icon-final">
+                      <img id="html" src="./img/iconos fiales/html.jpg" />
+
+                      &nbsp;
+                      <img id="css" src="./img/iconos fiales/css.png" />
+
+                      &nbsp;
+                      <img id="facebook" src="./img/iconos fiales/sass.png" />
+
+                      &nbsp;
+
+                      <img id="javascrip" src="./img/iconos fiales/js.png" />
+
+                      &nbsp;
+
+                      <img
+                        id="bootstrap"
+                        src="./img/iconos fiales/bootstrap.png"
                       />
+                      &nbsp;
+
+                      <img id="nodejs" src="./img/iconos fiales/node .png" />
                     </div>
-                    <hr />
-                    <div class="form-group">
-                      <label for="form-email">Email</label>
-                      <input
-                        type="email"
-                        class="form-control"
-                        placeholder="Email"
-                        id="form-email"
-                        name="email"
-                      />
-                    </div>
-                    <hr />
-                    <div class="form-group">
-                      <label for="form-phone">Phone</label>
-                      <input
-                        type="tel"
-                        class="form-control"
-                        placeholder="Phone"
-                        id="form-phone"
-                        name="phone"
-                      />
-                    </div>
-                    <hr />
-                    <div class="form-group">
-                      <label for="form-message">Message</label>
-                      <textarea
-                        rows="1"
-                        class="form-control"
-                        placeholder="Message"
-                        id="form-message"
-                        name="message"
-                      ></textarea>
-                    </div>
-                    <hr />
-                    <div class="form-group text-center">
-                      <button type="submit" class="btn btn-lg" id="id_btn">Send</button>
-                      <br />
-                      <div id="success"></div>
-                    </div>
-                  </form>
+                  </div>
+                  <hr />
                 </div>
               </div>
             </div>
