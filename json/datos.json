@@ -1,0 +1,61 @@
+[{
+    "icon": "html",
+    "name": "HTML5",
+    "url":"./img/iconos/html.jpg"
+}, {
+    "icon": "css",
+    "name": "CSS3",
+    "url":"./img/iconos/css2.png"
+}, {
+    "icon": "sass",
+    "name": "SASS",
+    "url":"./img/iconos/sass1.png"
+}, {
+    "icon": "js",
+    "name": "JavaScript (ES6)",
+    "url":"./img/iconos/js.png"
+}, {
+    "icon": "jquery",
+    "name": "JQuery",
+    "url":"./img/iconos/jquery.png"
+}, {
+    "icon": "node",
+    "name": "Node.js",
+    "url":"./img/iconos/node.png"
+}, {
+    "icon": "bootstrap",
+    "name": "Bootstrap",
+    "url":"./img/iconos/bootstrap.png"
+}, {
+    "icon": "java",
+    "name": "Java",
+    "url":"./img/iconos/java.png"
+}, {
+    "icon": "php",
+    "name": "PHP",
+    "url":"./img/iconos/php.jpg"
+},{
+    "icon": "c#",
+    "name": "C#",
+    "url":"./img/iconos/c.png"
+}, {
+    "icon": ".ne",
+    "name": ".Net",
+    "url":"./img/iconos/net.png"
+}, {
+    "icon": "msql",
+    "name": "MySql",
+    "url":"./img/iconos/mysql.png"
+}, {
+    "icon": "git",
+    "name": "Git, GitHub",
+    "url":"./img/iconos/git.jpg"
+}, {
+    "icon": "sql",
+    "name": "SQL",
+    "url":"./img/iconos/sql.png"
+}, {
+    "icon": "msql",
+    "name": "MySql",
+    "url":"./img/iconos/mysql.png"
+}]

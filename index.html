@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="./sass/styles.css" />
+
+    <title>Portfolio</title>
+  </head>
+
+  <body class="contenedor">
+    <!-- Navigator -->
+    <header>
+      <nav id="navbar-example2" class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+          <div class="d-flex justify-content-start" id="social-media">
+            <a href="https://www.linkedin.com/in/jos%C3%A9-luis-ferrer/"
+              ><img id="linkedin" src="./img/linkedin.png" /></a
+            >&nbsp;
+            <a href="https://github.com/Ruyjoy"
+              ><img id="github" src="./img/github.png" /></a
+            >&nbsp;
+            <a href="https://www.facebook.com/joseluis.ferrer1/"
+              ><img id="facebook" src="./img/facebook.png"
+            /></a>
+          </div>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav nav-pills">
+              <li class="nav-item">
+                <a class="nav-link" href="" id="pato">Inicio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skillset">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#about">Sobre mi</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!--Contenido Principal-->
+    <div class="contenido-principal" id="showcase">
+      <div class="contenido-imagen">
+        <picture>
+          <div class="imagen-principal">
+            <img src="./img/imagen3.jpg" class="img-thumbnail" alt="..." />
+          </div>
+        </picture>
+      </div>
+      <div class="contenido-about">
+        <section>
+          <h1>
+            José Luis Ferrer
+            <br />
+            <strong>Front end Developer</strong>
+          </h1>
+        </section>
+        <div class="borde-decoration"></div>
+        <section>
+          <p class="parrafo">
+            Apasionado en todo lo que hago, dispuesta siempre a enfrentar
+            desafíos, amante de todo lo que indique
+            <em>transformación digital &nbsp;</em> y
+            <em>accesibilidad</em> &nbsp; para lograr una verdadera inclusión.
+            ¿Mi punto único? &nbsp; La versatilidad: lo que me ha impulsado para
+            adaptarme a los entornos de trabajo.
+          </p>
+        </section>
+        <div class="borde-decoration_about"></div>
+        <br />
+        <div class="d-flex flex-row mt-4" id="btnP">
+          <div class="d-grid gap-2 d-md-flex">
+            <a
+              class="btn btn-light"
+              id="btncontacto"
+              href="CV.pdf"
+              download="CV.pdf"
+              >Descargar cv</a
+            >
+
+            <a class="btn btn-outline" id="btncontacto" href="#contacto"
+              >Contacto</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!--Contenido Principal-->
+    <div class="contenido-principal" id="showcase">
+      
+        <div class="contenido-imagen">
+          
+            
+              <img src="./img/imagen3.jpg" class="img-thumbnail" alt="..." />
+            </div>
+          
+        </div>
+     
+          <div class="contenido-about">
+            <section>
+              <h1>
+                José Luis Ferrer
+                <br />
+                <strong>Front end Developer</strong>
+              </h1>
+            </section>
+            <div class="borde-decoration"></div>
+            <section>
+              <p class="parrafo">
+                Apasionado en todo lo que hago, dispuesta siempre a enfrentar
+                desafíos, amante de todo lo que indique
+                <em>transformación digital &nbsp;</em> y
+                <em>accesibilidad</em> &nbsp; para lograr una verdadera
+                inclusión. ¿Mi punto único? &nbsp; La versatilidad: lo que me ha
+                impulsado para adaptarme a los entornos de trabajo.
+              </p>
+            </section>
+            <div class="borde-decoration_about"></div>
+            <br />
+            <div class="d-flex flex-row mt-4" id="btnP">
+              <div class="d-grid gap-2 d-md-flex">
+                <a
+                  class="btn btn-light"
+                  id="btncontacto"
+                  href="CV.pdf"
+                  download="CV.pdf"
+                  >Descargar cv</a
+                >
+
+                <a class="btn btn-outline" id="btncontacto" href="#contacto"
+                  >Contacto</a
+                >
+              </div>
+            </div>
+          </div>
+        
+     
+    </div>
+
+    <!-- script -->
+    <script type="text/javascript">
+      window.addEventListener("scroll", function () {
+        var header = document.querySelector("header");
+        header.classList.toggle("abajo", window.scrollY > 0);
+      });
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

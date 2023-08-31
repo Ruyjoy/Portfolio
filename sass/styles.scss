@@ -1,0 +1,39 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+// .contenedor1{
+//     width: min(65%, 90rem);
+//     margin: 0 auto;
+//     text-align: center;
+//     background-image: url('../img/celeste2.jpg');
+//     background-repeat: no-repeat;
+//     background-size: 100% 100%;
+// }
+.container{
+  margin: 0 auto;
+  background-image: url('../img/celeste2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+ 
+}
+
+.contenedor{
+  margin: 0 auto;
+  text-align: center;
+  text-align: center;
+}
+
+body{
+  padding-top: 100px;
+  margin-left:200px;
+  margin-right: 200px;
+  }
+
+
+
+@import "./navbar";
+@import "./contenido";
+@import "./contacto";
+@import "./footer";
+@import "./proyecto";
+@import "./skillSet";
