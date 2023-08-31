@@ -11971,13 +11971,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-.container {
-  margin: 0 auto;
-  background-image: url("../img/celeste2.jpg");
-  background-repeat: no-repeat;
-  background-size: 100% 100%;
-}
-
 .contenedor {
   margin: 0 auto;
   text-align: center;
