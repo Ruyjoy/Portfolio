@@ -5,7 +5,7 @@ $(function(){
     //$("#portfolio").load("./template/portfolio.html");
     //$("#skillset").load("./template/skills.html");
     //$("#contact").load("./template/contact.html");
-    //$("#proyectos").load("./template/proyectos.html");
+    $("#proyectos").load("./template/proyectos.html");
     $("#about").load("./template/sobreMi.html");
     //$("#skillset").load("./template/skill.html");
     
