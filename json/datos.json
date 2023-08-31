@@ -39,9 +39,21 @@
     "name": "C#",
     "url":"./img/iconos/c.png"
 }, {
+    "icon": ".ne",
+    "name": ".Net",
+    "url":"./img/iconos/net.png"
+}, {
+    "icon": "msql",
+    "name": "MySql",
+    "url":"./img/iconos/mysql.png"
+}, {
     "icon": "git",
     "name": "Git, GitHub",
     "url":"./img/iconos/git.jpg"
+}, {
+    "icon": "sql",
+    "name": "SQL",
+    "url":"./img/iconos/sql.png"
 }, {
     "icon": "msql",
     "name": "MySql",

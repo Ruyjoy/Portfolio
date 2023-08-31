@@ -1,0 +1,131 @@
+/* Showcase */
+#showcase {
+  
+    text-align: left;
+    padding-top: 40px;
+    color: #fff;
+  }
+    
+  #showcase p {
+   
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  
+  #showcase .btn {
+    text-transform: uppercase;
+  }
+ //btn
+
+ #btncontacto {
+    display: inline-block;
+    font-size: 15px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border-radius: 30px;
+  }
+  
+  .btn-light {
+    background: #E84B2A;
+    border: 1px solid #E84B2A;
+    color: #fff;
+  }
+  
+  .btn-outline {
+    border: 2px solid #fff;
+    color: #fff;
+  }
+  
+  .btn-dark {
+    background: #6C757D;
+    border: 1px solid #6C757D;
+    color: #fff;
+  }
+
+
+  //imagen 
+
+  .contenido-principal{
+    display: relative;
+}
+  .imagen-principal {
+    background-image: url(../img/imagen3.jpg);
+    display: flex;
+    width: 17rem;
+    height: 25rem;
+    background-size: cover;
+}
+@media (min-width: 768px) {
+    .contenido-about {
+        text-align: start;
+        align-items: center;
+    }
+}
+@media (min-width: 768px) {
+    .contenido-principal {
+        display: flex;
+    }
+}
+
+.contenido-about {
+    margin-left: 2rem;
+}
+
+.contenido-about h1 {
+    color: white;
+    font-family: 'Raleway', sans-serif;
+}
+.contenido-about em {
+    color:  #fe8228;
+}
+.contenido-about strong {
+    color:  #fe8228;  
+    //font-weight: bolder;
+}
+p {
+    color:  #373737;
+    font-size:  1.2rem;
+    padding-top: 2rem;
+    font-family: 'Outfit', sans-serif; 
+}
+strong{
+    color:  #fe8228;    
+}
+.contenido-about strong{
+    color:  #fe8228;    
+}
+.seccion-about{
+    margin-top: 8rem;
+    margin-bottom: 8rem;
+}
+.borde-decoration {
+    border-top: 3px solid #fe8228;
+    width: 8rem;
+    padding: 0;
+    margin-bottom: -1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+.borde-decoration_about {   
+    border-top: 3px solid #fe8228;
+    width: 8rem;
+    float: right;
+    
+}
+
+.section-hr{
+    content: '';
+   margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin: auto;
+    width: 20rem;
+    height: 6px;
+    background: #fe8228;
+}
+
+h1{
+    color: black;
+}
+

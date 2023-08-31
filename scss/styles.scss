@@ -1,14 +1,39 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
-@import "./visual";
-@import "./home";
-@import "./portfolio";
-@import "./animacion";
+ @import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+// @import "./visual";
+// @import "./home";
+// @import "./portfolio";
+// @import "./animacion";
 
 
-.nav-link{
-  border: none;
-  padding: 15px 30px;
-  color: antiquewhite;
+// .nav-link{
+//   border: none;
+//   padding: 15px 30px;
+//   color: antiquewhite;
+// }
+
+
+.contenedor {
+  width: min(65%, 90rem);
+  margin: 0 auto;
+  text-align: center;
+  background-image: url('../img/celeste2.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
 }
+
+
+
+body{
+  padding-top: 100px;
+}
+
+@import "./navbar";
+@import "./contenido";
+@import "./proyecto";
+@import "./skillSet";
+@import "./contacto";
+@import "./footer";
+
 
 

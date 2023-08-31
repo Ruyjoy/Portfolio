@@ -1,0 +1,31 @@
+[{
+    "name": "",
+    "titulo": "Pagina web de animales.",
+    "description": "CSS3, HTML, Bootstrap, JavaScript, Responsive Design, JQuery, RESTful API, PHP, MySQL  ", 
+    "url":"./img/product-1.jpg"
+}, {
+    "name": "",
+    "titulo": "Pagina web de gestion de automotora.",
+    "description": "CSS3, HTML, Bootstrap, JavaScript, Responsive Design, PHP, MySQL", 
+    "url":"./img/product-1.jpg"
+}, {
+    "icon": "",
+    "titulo": "Aplicacion de escritorio sobre gestion de una terminal.",
+    "description": " Java, Swing, MySQL, Responsive Design, PHP, MySQL", 
+    "url":"./img/product-1.jpg"
+}, {
+    "icon": "",
+    "titulo": "Apliacacion android sobre animales",
+    "description": "Java, Android studio, MySQL", 
+    "url":"./img/product-1.jpg"
+}, {
+    "icon": "",
+    "titulo": "Pagina web de gestion de farmacia.",
+    "description": "C#, ADO.net, ASP.net, REST API, SQL ", 
+    "url":"./img/product-1.jpg"
+}, {
+    "icon": "",
+    "titulo": "Pagina web sobre gestion de restaurante.",
+    "description": "C#, ADO.net, ASP.net, SQL", 
+    "url":"./img/product-1.jpg"
+}]
