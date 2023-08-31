@@ -193,7 +193,7 @@
         <section class="seccion-about" id="about">
             <div>
                 <h1>Un poco más sobre mí</h1>
-                <hr class="section-hr-sobremi" />
+                <hr class="section-hr"/>
                 <br />
                 <br/><br/>
                 <div class="borde-decoration"></div>
@@ -214,10 +214,84 @@
 
         <hr class="" />
 
+        <!-- Contacto -->
+        <section class="contacto" id="contacto">
+        <h1>Contactame</h1>
+  
         
+        <form
+          action="https://formsubmit.co/ruyjoy@hotmail.com"
+          method="POST"
+          class="formulario"
+        >
+          <div class="campo">
+            <label class="campo__label" for="email">E-mail</label>
+            <input
+              class="campo__field"
+              type="email"
+              name="email"
+              id="email"
+              placeholder="correo@correo.com"
+            />
+          </div>
+          <div class="campo">
+            <label class="campo__label" for="mensaje">Mensaje</label>
+            <textarea
+              class="campo__field campo__field--textarea"
+              name="mensaje"
+              placeholder="Quiero trabajar contigo..."
+              id="mensaje"
+            ></textarea>
+          </div>
+          <div class="campoButton">
+            <input class="boton-contacto" type="submit" value="Enviar" />
+  
+            <input type="hidden" name="_next" value="" />
+            <input type="hidden" name="_captcha" value="false" />
+          </div>
+        </form>
+        
+        </section>
 
         
-      
+        <!-- Footer -->
+        <footer id="footer">
+        <small
+          ><spam for="form-message"
+            >Este sitio está desarollado con :</spam
+          ></small
+        >
+        <div class="d-flex justify-content-center" id="icon-final">
+          <img id="html" src="./img/iconos fiales/html.jpg" />
+  
+          &nbsp;
+          <img id="css" src="./img/iconos fiales/css.png" />
+  
+          &nbsp;
+          <img id="facebook" src="./img/iconos fiales/sass.png" />
+  
+          &nbsp;
+  
+          <img id="javascrip" src="./img/iconos fiales/js.png" />
+  
+          &nbsp;
+  
+          <img id="bootstrap" src="./img/iconos fiales/bootstrap.png" />
+          &nbsp;
+  
+          <img id="nodejs" src="./img/iconos fiales/node .png" />
+        </div>
+        <small>
+          <span>Developed and designed by&nbsp;</span>
+          <a href="">José luis Ferrer</a>. &copy;
+          <script type="text/javascript">
+            var d = new Date();
+            document.write(d.getFullYear());
+          </script>
+          <span class="min-footer">. All rights reserved.</span>
+        </small>
+        </footer>
+
 
 
 
