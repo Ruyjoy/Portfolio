@@ -1,0 +1,105 @@
+// Habilidades
+
+.habilidades {
+    padding-top: 4rem;
+    margin-bottom: 6rem;
+    display: flex;
+    align-items: center;
+}
+
+@media (min-width: 768px) {
+    .habilidades {
+        margin-bottom: 8rem;
+    }
+}
+
+#habilidades {
+    border: 2px solid #F5F5F5;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    
+}
+
+#habilidades img {
+    border-radius: 1rem;
+    cursor: context-menu;
+    max-width: 5.5rem;
+    text-align: center;
+}
+
+#tituli-skills{
+    margin-bottom: 3rem ;
+}
+
+.section-hr-sobremi{
+    content: '';
+   margin-top: 4rem;
+    margin-bottom: 2rem;
+    margin: auto;
+    width: 30rem;
+    height: 6px;
+    background: #fe8228;
+}
+
+#skillset{
+    
+    
+    text-align: center;
+}
+
+
+#cajas{
+    border-radius:1.5rem;
+    box-shadow: 1px 1px 6px 1px #2591fb;
+    border: 2px solid #2591fb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+.hero_technologies {
+    -webkit-animation: AnimateBGTech 30s linear infinite;
+    animation: AnimateBGTech 30s linear infinite;
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179),url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179),url(https://firebasestorage.googleapis.com/v0/b/base-de-imagenes-proyectos.appspot.com/o/Blur-bg2.png?alt=media&token=3b393643-5da1-4c33-a721-8f1aeda97179);
+    background-position: 50% 0,0 60%,0 0;
+    background-repeat: no-repeat;
+    background-size: 150px,100px,50px;
+    height: auto;
+    text-align: center;
+    width: 100%;
+}
+@keyframes AnimateBGTech {
+    
+
+0% {
+    background-position: 50% 100%,50% 0,0 0,100% 100%;
+    background-size: 160px,120px,80px,40px;
+}
+20% {
+    background-position: 75% 0,25% 100%,25% 20%,75% 80%;
+    background-size: 140px,130px,90px,60px;
+}
+
+40% {
+    background-position: 100% 100%,0 0,50% 50%,50% 50%;
+    background-size: 120px,110px,60px,80px;
+}
+60% {
+    background-position: 0 100%,100% 0,25% 80%,75% 20%;
+    background-size: 110px,100px,50px,70px;
+}
+80% {
+    background-position: 25% 0,75% 100%,0 100%,100% 0;
+    background-size: 140px,130px,90px,60px;
+}
+100% {
+    background-position: 50% 100%,50% 0,0 0,100% 100%;
+    background-size: 160px,120px,80px,40px;
+}
+}
