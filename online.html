@@ -43,16 +43,16 @@
           <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
             <ul class="navbar-nav mx-auto mb-2 mb-lg-0 nav nav-pills">
               <li class="nav-item">
-                <a class="nav-link" href="" id="pato">Inicio</a>
+                <a class="nav-link" href="" >Inicio</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#proyectos">Proyectos</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#skillset">Habilidades</a>
+                <a class="nav-link" href="#about">Sobre mi</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#about">Sobre mi</a>
+                <a class="nav-link" href="#skillset">Habilidades</a>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="#contacto">Contacto</a>
@@ -66,7 +66,7 @@
     <main>
 
       <!--Contenido Principal-->
-      <section class="knowledge" id="about">
+      <section class="knowledge">
         <div class="knowledge__container container">
           <div class="knowledege__texts">
             <h2 class="subtitle">
@@ -82,10 +82,13 @@
               punto único? &nbsp; La versatilidad: lo que me ha impulsado para
               adaptarme a los entornos de trabajo.
             </p>
-            <a href="CV.pdf" download="CV.pdf" class="cta">Descargar cv</a>
+            
+            <a href="CV.pdf" download="CV.pdf" class="cta" >Descargar cv</a> 
 
             <a href="#contacto" class="cta">Contacto</a>
+
           </div>
+          
 
           <figure class="knowledge__picture">
             <img src="./img/macbook.png" class="knowledge__img" />
@@ -94,7 +97,7 @@
       </section>
 
       <!--Proyectos-->
-      <section class="questions container">
+      <section class="questions container" id="proyectos">
         <h2 class="subtitle">Proyectos</h2>
         <br><br>
         <div class="galeria" id="galeriaPortafolio">
@@ -136,9 +139,35 @@
         </div>
       </section>
 
+       <!-- Sobre mi -->
+      <section class="testimony" id="about">
+        <div class="testimony__container container">
+            <section class="testimony__body testimony__body--show" data-id="1">
+                <div class="testimony__texts">
+                    <h2 class="subtitle">Un poco más sobre mí</h2>
+                    
+                    <p class="testimony__review"> Soy <strong>José Luis</strong> !!, apasionado por el aprendizaje
+                      constante y entusiasmado por formar parte de una empresa donde
+                      pueda aplicar y ampliar mis conocimientos. Comprometido con mi
+                      crecimiento tanto a nivel profesional como personal, busco
+                      oportunidades que desafíen y estimulen mi desarrollo. Estoy
+                      motivado para contribuir al éxito de la organización mientras
+                      continúo expandiendo mis habilidades y experiencia
+                    </p>
+                    <div class="borde-decoration_about"></div>
+                </div>
+
+                <figure class="testimony__picture">
+                    <img src="./img/fornite.jpg" class="testimony__img">
+                </figure>
+            </section>
+        </div>
+      </section>
+
+
       <!--Skills-->
-      <section class="knowledge" id="skillset">
-        <div class="container">
+      <section class="container" id="skillset">
+        
           <h2 class="subtitle">Skill</h2>
           <p class="questions__paragraph">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ea, porro
@@ -211,31 +240,10 @@
               </div>
             </div>
           </div>
-        </div>
+        
       </section>
 
-      <!-- Sobre mi -->
-      <section class="seccion-about " id="about">
-        <div class="container">
-          <h2 class="subtitle">Un poco más sobre mí</h2>
-          
-          <br />
-          <br /><br />
-          <div class="borde-decoration"></div>
-          <article>
-            <p>
-              Soy <strong>José Luis</strong> !!, apasionado por el aprendizaje
-              constante y entusiasmado por formar parte de una empresa donde
-              pueda aplicar y ampliar mis conocimientos. Comprometido con mi
-              crecimiento tanto a nivel profesional como personal, busco
-              oportunidades que desafíen y estimulen mi desarrollo. Estoy
-              motivado para contribuir al éxito de la organización mientras
-              continúo expandiendo mis habilidades y experiencia
-            </p>
-          </article>
-          <div class="borde-decoration_about"></div>
-        </div>
-      </section>
+      
 
       <!-- Contacto -->
       <section class="knowledge contacto" id="contacto">
@@ -265,12 +273,9 @@
               id="mensaje"
             ></textarea>
           </div>
-          <div class="campoButton">
-            <input class="boton-contacto" type="submit" value="Enviar" />
-
-            <input type="hidden" name="_next" value="" />
-            <input type="hidden" name="_captcha" value="false" />
-          </div>
+          
+          <input class="cta" type="submit" value="Enviar" />
+         
         </form>
       </section>
 

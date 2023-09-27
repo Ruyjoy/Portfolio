@@ -6,9 +6,12 @@
  
 body {
     font-family: 'Poppins', sans-serif;
+    background:  #f9fafc;
+    //background:  #f3f4f5;
     background-image: url('');
     background-repeat: no-repeat;
     background-size: 100% 100%
+   
 }
 
 .container {
@@ -16,7 +19,7 @@ body {
     max-width: 1200px;
     margin: 0 auto;
     overflow: hidden;
-    //padding: 100px 0;
+    padding: 100px 0;
 }
   
 h2 {
@@ -40,6 +43,7 @@ h2 {
 
 @import "./navbar";
 @import "./contenido";
+@import "./contenedores";
 @import "./sobreMi";
 @import "./proyecto";
 @import "./skillSet";
