@@ -71,7 +71,7 @@
     "icono8":""
 }, {
     "icon": "",
-    "titulo": "Aplicacion de escritorio de una terminal.",
+    "titulo": "Aplicacion de una terminal.",
     "description": " Gestion de una terminal de Omnibus", 
     "url":"https://github.com/Ruyjoy/Terminal-Java-and-Swing-.git",
     "urlimagen":"./img/proyectos/terminal.png",
