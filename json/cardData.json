@@ -1,4 +1,18 @@
 [{
+    "icon": "",
+    "titulo": "Gestion de alumos",
+    "description": " Busqueda de alumnos y cursos", 
+    "url":"https://github.com/Ruyjoy/Microservice.git",
+    "urlimagen":"./img/proyectos/MicroserviceU.png",
+    "icono1":"",
+    "icono2":"",
+    "icono3":"",
+    "icono4":"./img/iconos/java.png",
+    "icono5":"./img/iconos/spring.png",
+    "icono6":"./img/iconos/git.jpg",
+    "icono7":"",
+    "icono8":"./img/iconos/posgres.png"
+}, {
     "name": "",
     "titulo": "Pagina web de animales.",
     "description": "Gestion de animales Perdidos", 
@@ -9,20 +23,6 @@
     "icono3":"./img/iconos/js.png",
     "icono4":"./img/iconos/bootstrap.png",
     "icono5":"./img/iconos/jquery.png",
-    "icono6":"./img/iconos/git.jpg",
-    "icono7":"./img/iconos/php.jpg",
-    "icono8":"./img/iconos/mysql.png"
-}, {
-    "name": "",
-    "titulo": "Pagina web de automotora.",
-    "description": "Gestion de una automotora ", 
-    "url":"https://ruyjoy.github.io/Automotora/index.html",
-    "urlimagen":"./img/proyectos/Automotora.png",
-    "icono1":"./img/iconos/html.jpg",
-    "icono2":"./img/iconos/css2.png",
-    "icono3":"./img/iconos/js.png",
-    "icono4":"./img/iconos/bootstrap.png",
-    "icono5":"",
     "icono6":"./img/iconos/git.jpg",
     "icono7":"./img/iconos/php.jpg",
     "icono8":"./img/iconos/mysql.png"
@@ -43,20 +43,6 @@
     "icono8":"./img/iconos/mysql.png"
 }, {
     "icon": "",
-    "titulo": "Apliacacion android",
-    "description": "Comparet lo mismo que La web", 
-    "url":"https://github.com/Ruyjoy/AnimalesPerdidos",
-    "urlimagen":"./img/proyectos/perros.jpg",
-    "icono1":"./img/iconos/java.png",
-    "icono2":"./img/iconos/android.jpg",
-    "icono3":"./img/iconos/androidStudios (1).png",
-    "icono4":"./img/iconos/mysql.png",
-    "icono5":"./img/iconos/git.jpg",
-    "icono6":"",
-    "icono7":"",
-    "icono8":""
-}, {
-    "icon": "",
     "titulo": "Pagina web de farmacia.",
     "description": "Gestion completa de una farmacia ", 
     "url":"https://ruyjoy.github.io/Farmacia-Web-.Net-Base-de-datos-Avanzada/",
@@ -71,16 +57,30 @@
     "icono8":""
 }, {
     "icon": "",
-    "titulo": "Gestion de alumos",
-    "description": " Busqueda de alumnos y cursos", 
-    "url":"https://github.com/Ruyjoy/Microservice.git",
-    "urlimagen":"./img/proyectos/MicroserviceU.png",
-    "icono1":"",
-    "icono2":"",
-    "icono3":"",
-    "icono4":"./img/iconos/java.png",
-    "icono5":"./img/iconos/spring.png",
-    "icono6":"./img/iconos/git.jpg",
+    "titulo": "Apliacacion android",
+    "description": "Comparet lo mismo que La web", 
+    "url":"https://github.com/Ruyjoy/AnimalesPerdidos",
+    "urlimagen":"./img/proyectos/perros.jpg",
+    "icono1":"./img/iconos/java.png",
+    "icono2":"./img/iconos/android.jpg",
+    "icono3":"./img/iconos/androidStudios (1).png",
+    "icono4":"./img/iconos/mysql.png",
+    "icono5":"./img/iconos/git.jpg",
+    "icono6":"",
     "icono7":"",
-    "icono8":"./img/iconos/posgres.png"
+    "icono8":""
+}, {
+    "name": "",
+    "titulo": "Pagina web de automotora.",
+    "description": "Gestion de una automotora ", 
+    "url":"https://ruyjoy.github.io/Automotora/index.html",
+    "urlimagen":"./img/proyectos/Automotora.png",
+    "icono1":"./img/iconos/html.jpg",
+    "icono2":"./img/iconos/css2.png",
+    "icono3":"./img/iconos/js.png",
+    "icono4":"./img/iconos/bootstrap.png",
+    "icono5":"",
+    "icono6":"./img/iconos/git.jpg",
+    "icono7":"./img/iconos/php.jpg",
+    "icono8":"./img/iconos/mysql.png"
 }]
