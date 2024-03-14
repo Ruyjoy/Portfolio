@@ -12433,6 +12433,7 @@ em {
   height: 30rem;
   box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
   margin-bottom: 15rem;
+  border-radius: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -12463,10 +12464,6 @@ em {
 }
 
 .imagen-projects img {
-  -o-object-fit: cover;
-     object-fit: cover;
-  width: 100%;
-  height: 100%;
   border-radius: 1rem;
 }
 
