@@ -24,7 +24,7 @@
     "icono4":"./img/iconos/bootstrap.png",
     "icono5":"./img/iconos/jquery.png",
     "icono6":"./img/iconos/git.jpg",
-    "icono7":"./img/iconos/php.jpg",
+    "icono7":"./img/iconos/php2.png",
     "icono8":"./img/iconos/mysql.png"
 }, {
 
@@ -39,7 +39,7 @@
     "icono4":"./img/iconos/bootstrap.png",
     "icono5":"./img/iconos/jquery.png",
     "icono6":"./img/iconos/git.jpg",
-    "icono7":"./img/iconos/php1.png",
+    "icono7":"./img/iconos/java.png",
     "icono8":"./img/iconos/mysql.png"
 }, {
     "icon": "",
@@ -81,6 +81,6 @@
     "icono4":"./img/iconos/bootstrap.png",
     "icono5":"",
     "icono6":"./img/iconos/git.jpg",
-    "icono7":"./img/iconos/php.jpg",
+    "icono7":"./img/iconos/php2.png",
     "icono8":"./img/iconos/mysql.png"
 }]
