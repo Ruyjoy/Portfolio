@@ -40,3 +40,39 @@ fetch('./json/cardData.json')
 
         divcard.appendChild(fragment2);;
     }
+
+
+
+    let lenguaje ="es";
+    const primerParrafo = document.getElementById("primerParrafo");
+    const togglebtn = document.getElementById("toggle-btn");
+
+    const loadContent = (lenguaje) => {
+
+        fetch('./json/conten.json')
+        .then(function (response) {
+            return response.json();
+        })
+        .then(function (data) {
+    
+            primerParrafo.textContent= data[lenguaje].primerParrafo;
+            
+        })
+        .catch(function (error) {
+            
+            console.log(error);
+        });
+
+    }
+
+    togglebtn.addEventListener('change',()=>{
+
+        if(togglebtn.checked){
+            lenguaje = "es";
+        }else{
+            lenguaje = "en";
+        }
+        loadContent(lenguaje);
+    });
+
+    loadContent(lenguaje);
