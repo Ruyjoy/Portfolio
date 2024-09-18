@@ -85,7 +85,7 @@ header ul li{
 }
 
 
-
+//button Idiomas ------------------------------------------------------------------------------
 
 
 
@@ -115,7 +115,7 @@ header ul li{
     left:0;
     right:0;
     bottom: 0;
-    background-color: #ccc;
+    background-color: #fff;
     transition: .4s;
 }
 
@@ -144,10 +144,10 @@ header ul li{
 }
 
 input:checked + .slider{
-    background-color: #3edb29;
+    background-color: #ccc;
 }
 input:focus + .slider{
-    box-shadow: 0 0 1px #3af321;
+    box-shadow: 0 0 1px #ccc;
 }
 input:checked + .slider:after{
     content: 'En';

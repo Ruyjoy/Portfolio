@@ -1,13 +1,39 @@
 {
     "es":{
-        "primerParrafo":"Entusiasta en todas mis actividades, constantemente estoy buscando nuevos desafíos. Apasionado por la innovación digital y comprometido con la accesibilidad para lograr una verdadera equidad. La versatilidad es lo que me ha impulsado para adaptarme a los diferentes entornos laborales."
+        "primerParrafo":"Entusiasta en todas mis actividades, constantemente estoy buscando nuevos desafíos. Apasionado por la innovación digital y comprometido con la accesibilidad para lograr una verdadera equidad. La versatilidad es lo que me ha impulsado para adaptarme a los diferentes entornos laborales.",
+        "inicio":"inicio",
+        "proyecto":"Proyectos",
+        "aboutme":"Sobre mí",
+        "skill":"Habilidades",
+        "contact":"Contacto",
+        "titulop":"Proyectos",
+        "titulosobre":"Un poco más sobre mí",
+        "parrafosobremi":"Soy José Luis !! Apasionado por el aprendizaje constante y por formar parte de una empresa donde pueda demostrar todos mis conocimientos. Busco oportunidades que desafíen y estimulen mi desarrollo profesional, como también el intelectual. Soy constante en el trabajo y trato de dar lo máximo, al mismo tiempo que busco ampliar mis habilidades.",
+        "contacto2":"Contactame",
+        "mensajeMe":"Mensaje",
+        "mensaje":"Quiero trabajar contigo...",
+        "buttondow":"Descargar CV",
+        "buttoncont":"Contacto",
+        "sendme":"Enviar"
         
 
     },
     
     "en":{
-        "primerParrafo":"Enthusiastic in all my activities, I am constantly seeking new challenges. Passionate about digital innovation and committed to accessibility to achieve true equity. Versatility is what has driven me to adapt to different work environments."
-       
-
+        "primerParrafo":"Enthusiastic in all my activities, I am constantly seeking new challenges. Passionate about digital innovation and committed to accessibility to achieve true equity. Versatility has enabled me to adapt to diverse work environments. With a strong focus on problem-solving, I am dedicated to driving progress and delivering impactful outcomes.",
+        "inicio":"Home Page",
+        "proyecto":"Projects",
+        "aboutme":"About me",
+        "skill":"Skills",
+        "contact":"Contact",
+        "titulop":"Projects",
+        "titulosobre":"A little more about me",
+        "parrafosobremi":"I am José Luis !! Passionate about constant learning and being part of a company where I can demonstrate all my knowledge. I look for opportunities that challenge and stimulate my professional development, as well as my intellectual development. I am consistent in my work and try to give my best, while seeking to expand my skills.",
+        "contacto2":"Contact me",
+        "mensajeMe":"Message",
+        "mensaje":"I want to work with you...",
+        "buttondow":"Download CV",
+        "buttoncont":"Contact",
+        "sendme":"Send"
     }
 }
